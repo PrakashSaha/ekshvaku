@@ -1,0 +1,286 @@
+/* Global Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;  /* Adjust padding for better spacing */
+    color: white;
+}
+.logo{
+    width: 25%;
+    height: auto;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+ul li a {
+    padding: 18px;
+    font-size: 16px;
+    text-decoration: none;
+    color:rgba(65, 61, 101, 1);
+
+}
+ul li a:hover {
+    background-color: rgb(197, 233, 143);
+}
+.main-btn {
+    margin: 25px;
+    background-color: rgba(65, 61, 101, 1);
+    padding: 18px 35px;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 15px;
+    
+}
+.main-btn:hover{
+    padding: 17px 34px;
+    background-color: rgb(197, 233, 143);
+    color:rgba(65, 61, 101, 1);
+    border: 1px solid rgba(65, 61, 101, 1);
+}
+body {
+    --scrollbar-width: 0px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Container */
+.contact-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+ 
+}
+
+.contact-container h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    font: 56px;
+    
+}
+
+.contact-container p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Form Styles */
+.contact-form .form-group {
+    width: 90%;
+    margin-bottom: 15px;
+    text-align: left;
+    text-overflow: ellipsis;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    margin: 0px 0px 8px;
+    font-size: 1rem;
+    font-family: "futura-lt-w01-book, sans-serif";
+}
+
+.contact-form input[type="email"],
+.contact-form input[type="tel"]{
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-family: "futura-lt-w01-book, sans-serif";
+}
+.contact-form input[type="text"],
+.contact-form textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-family: "futura-lt-w01-book, sans-serif";
+  
+}
+
+.form-elements{
+    
+    display: flex;
+    width:95%;
+}
+.from-element{
+    width:50%;
+}
+
+
+.contact-form .form-group textarea {
+
+    height: 100px;
+    resize: none;
+}
+
+/* Checkbox Group */
+.checkbox-groups {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+}
+
+.checkbox-group {
+    width:50%;
+}
+.checkbox-group div{
+    display: flex;
+}
+
+.checkbox-group input[type="checkbox"] {
+    appearance: none; 
+    -webkit-appearance: none; 
+    width: 18px;
+    height: 18px;
+    border: 1px solid #333;
+    border-radius: 3px; 
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkbox-group input[type="checkbox"]:checked::after {
+    content: '✓'; 
+    font-size: 16px;
+    color: black; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.checkbox-group label {
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer;
+    font-family: "futura-lt-w01-book, sans-serif";
+}
+
+/* Submit Button */
+.submit-btn {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "futura-lt-w01-book, sans-serif";
+    margin-left: 5px;
+    padding: 10px 170px;
+}
+
+.submit-btn:hover {
+    background-color: black;
+}
+
+.map{
+    text-align: center;
+}
+
+
+.main-.container{
+    width: 70%;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    width:100%;
+    align-items: center;
+}
+
+.footer-content{
+ flex-basis:40%;
+ margin-left: 100px;
+}
+
+.footer-content img{
+width: 50%;
+height: auto;
+}
+ 
+.address{
+    margin-top: 15px;
+    display: grid;
+
+}
+.footer-content span{
+    display: flex;
+    align-items: center;
+    margin: 8PX;
+    line-height: 1.6em;
+    font-size: 16px;
+    font: 16px Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.footer-content span i{
+    margin-right: 15PX;
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+.footer-content-link{
+    
+    margin-left: 100px;
+    
+   }
+.footer-links{
+    display: grid;
+}
+
+.footer-links a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.footer-content-link h1{
+    font-size: 20px;
+}
+hr{
+    margin-top: 100px;
+}
+.fotter-bottom{
+     padding-top: 25px;
+     padding-left: 100px;
+     font: 16px  sans-serif;
+}
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-container {
+        width: 90%;
+    }
+
+    .checkbox-group {
+        gap: 8px;
+    }
+}
+
+
+
+

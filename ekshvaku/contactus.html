@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="stylesheet" href="about.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="./index.html">
+            <img src="logo.png" class="logo">
+        </a>
+
+        <ul class="nav-list">
+            <li><a href="./about.html">About</a></li>
+            <li class="industry-menu"><a class="industry" href="">Industries</a>
+                <ul class="industries">
+                    <li><a href="finance-&-banking.html">Finance</a></li>
+                    <li><a href="health.html">Healthcare</a></li>
+                    <li><a href="e-commerce.html">E-commerce</a></li>
+                    <li><a href="edtech.html">Edtech</a></li>
+                    <li><a href="manufacturing.html">Manufacturing</a></li>
+                    <li><a href="logistics-and-transport.html">Logistics and Transport</a></li>
+                    <li><a href="telecommunication.html">Telecommunication</a></li>
+                </ul>
+            </li>
+            <li><a href="./carrers.html">Carrers</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <a href="./contactus.html" class="main-btn">ContactUs</a>
+        </ul>
+    </div>
+
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        <p>We’d love to hear from you!</p>
+        <form action="#" method="post" class="contact-form">
+            <!-- First Name -->
+            <div class="form-group">
+                <label for="first-name">First Name*</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+            </div>
+
+            <!-- Last Name -->
+            <div class="form-group">
+                <label for="last-name">Last Name*</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+            </div>
+
+            <div class="form-elements">
+                <div class="from-element">
+                    <!-- Email -->
+                    <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+        
+                    <!-- Phone -->
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="">
+                    </div>
+        
+                    <!-- Company Name -->
+                    <div class="form-group">
+                        <label for="company-name">Company Name*</label>
+                        <input type="text" id="company-name" name="company-name" placeholder="Enter a company name" required>
+                    </div>
+                </div>
+
+                <div class="from-element">
+                    <!-- Position -->
+                    <div class="form-group">
+                        <label for="position">Position*</label>
+                        <input type="text" id="position" name="position" placeholder="" required>
+                    </div>
+        
+                    <!-- Country -->
+                    <div class="form-group">
+                        <label for="country">Country*</label>
+                        <input type="text" id="country" name="country" placeholder="Enter your country/region" required>
+                    </div>
+        
+                    <!-- Assistance -->
+                    <div class="form-group">
+                        <label for="assistance">How Can We Assist You?*</label>
+                        <input type="text" id="assistance" name="assistance" placeholder="assistance" required>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service of Interest -->
+            <div class="form-group">
+                <label>Service of Interest*</label>
+                <div class="checkbox-groups">
+                    <div class="checkbox-group">
+                        <div>
+                            <input type="checkbox" id="cloud-data" name="service" value="cloud-data">
+                            <label for="cloud-data">Cloud & Data Solutions</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="digital-engineering" name="service" value="digital-engineering">
+                            <label for="digital-engineering">Digital Engineering</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="customer-experience" name="service" value="customer-experience">
+                            <label for="customer-experience">Customer Experience Enhancements</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="agile-delivery" name="service" value="agile-delivery">
+                            <label for="agile-delivery">Agile Delivery</label>
+                        </div>
+                    </div>
+                    <div class="checkbox-group">
+                        <div>
+                            <input type="checkbox" id="erp-solutions" name="service" value="erp-solutions">
+                            <label for="erp-solutions">Integrated ERP Solutions</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cms-services" name="service" value="cms-services">
+                            <label for="cms-services">CMS Services</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="marketing-automation" name="service" value="marketing-automation">
+                            <label for="marketing-automation">Marketing Automation</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="innovative-tech" name="service" value="innovative-tech">
+                            <label for="innovative-tech">Innovative Technologies</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="assistance">Tell Us More About Your Needs * </label>
+                <textarea 
+                rows="4" cols="50"
+                id="assistance" 
+                name="assistance" 
+                placeholder="Give a detailed description of uour needs" required></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>        
+    </div>
+    <div class="map">
+        <hr style="width:95%;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60924.20924159418!2d78.32518374669185!3d17.375129878342747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbbd8de77f5fcf%3A0xb163f25077fee243!2sRajendranagar%20mandal%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1732177202396!5m2!1sen!2sin" 
+        width="95%" 
+        height="400px" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="main-container">
+        <hr style="width:95%;">
+        <div class="container">
+            <div class="footer-content">
+                <img src="logo.png" class="logo1">
+                <div class="address">
+                    <span>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i> 
+                        <p>
+                            St. No. 324/AA, AHP, K.V. Rangareddy, Rajendra Nagar, Telangana, India, 500075
+                        </p>
+                    </span> 
+                    <span>
+                        <i class="fa fa-envelope" aria-hidden="true"></i> 
+                        <p>
+                            info@ekshvaku.com
+                        </p>
+                    </span> 
+                    <span>
+                        <i class="fa fa-phone" aria-hidden="true"></i> 
+                        <p>
+                            +919652455414
+                        </p>
+                    </span>
+                </div>
+            </div>
+            <div class="footer-content-link"> 
+                <h1>Quick Links</h1>
+                <div class="footer-links">
+                    <a href="">About Us</a>
+                    <a href="">Carrers</a>
+                    <a href="">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <hr style="width:95%">
+        <div class="fotter-bottom">
+            <p>	&#169; 2024 Ekshvaku Tech Innovations. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
